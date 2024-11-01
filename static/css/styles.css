@@ -82,11 +82,12 @@ button[type="submit"]:hover {
 .header_ {
     padding: 20px;
     text-align: center;
+    /* background-color: #007bff; */
     background-color: #007bff;
     color: white;
     background-blend-mode: overlay; 
     margin-top: 5px; 
-    /* background-image: url('/static/images/galleria3.jpg');  */
+    /* background-image: url('/static/images/fishimage.jpeg'); */
      /* background-size: cover; 
     background-position: center; */
     position: relative; 
@@ -115,7 +116,7 @@ button[type="submit"]:hover {
 }
 
 /* Amélioration de l'affichage sur mobile */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbar-brand {
         font-size: 1.5rem;
     }
@@ -123,4 +124,4 @@ button[type="submit"]:hover {
     .nav-link {
         font-size: 1.2rem;
     }
-}
+} */
