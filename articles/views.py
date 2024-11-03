@@ -8,9 +8,8 @@ def home(request):
     articles = Article.objects.all()
     return render(request,"index.html",{"articles":articles})
 
-# def useradmin(request):
-#     form = ArticleForm()
-#     return render(request,"useradmin.html",{'form':form})
+def newarticle(request):
+    return render(request,"new_article.html")
 
 def useradmin(request):
     articles = Article.objects.all()
