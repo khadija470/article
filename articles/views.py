@@ -9,7 +9,8 @@ def home(request):
     return render(request,"index.html",{"articles":articles})
 
 def newarticle(request):
-    return render(request,"new_article.html")
+    articles = Article.objects.all()
+    return render(request,"index_new.html",{"articles":articles})
 
 def useradmin(request):
     articles = Article.objects.all()
